@@ -132,15 +132,7 @@ document.querySelectorAll('.form-control').forEach(input => {
   });
 
 
-//   const images = [
-//     "./images/portfolio/portfolio-4.jpg",
-//     "./images/portfolio/portfolio-5.jpg",
-//     "./images/portfolio/portfolio-6.jpg",
-//     "./images/portfolio/portfolio-7.jpg",
-//     "./images/portfolio/portfolio-8.jpg",
-//     "./images/portfolio/portfolio-9.jpg",
-//     // add as many as you want...
-//   ];
+
 
     // 🧮 Set how many images you have
   const totalImages = 20;
@@ -159,7 +151,7 @@ document.querySelectorAll('.form-control').forEach(input => {
     const html = `
       <div class="col-lg-4 col-md-6 portfolio-item filter-ceremony">
         <div class="portfolio-img">
-          <img class="img-fluid" src="${src}" alt="">
+          <img class="img-fluid" src="${src}" loading="lazy" alt="">
         </div>
         <div class="portfolio-info">
           <h4>Ceremony ${index + 1}</h4>

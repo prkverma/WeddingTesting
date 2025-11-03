@@ -148,7 +148,7 @@ document.querySelectorAll('.form-control').forEach(input => {
   // 🪄 Generate image paths automatically
   const images = [];
   for (let i = 1; i <= totalImages; i++) {
-    images.push(`./images/portfolio/portfolio-${i}.jpg`);
+    images.push(`./images/portfolio/portfolio-${i}.JPG`);
   }
 
    // Select the gallery container

@@ -135,7 +135,7 @@ document.querySelectorAll('.form-control').forEach(input => {
 
 
     // 🧮 Set how many images you have
-  const totalImages = 20;
+  const totalImages = 5;
 
   // 🪄 Generate image paths automatically
   const images = [];

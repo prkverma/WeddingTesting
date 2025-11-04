@@ -140,7 +140,7 @@ document.querySelectorAll('.form-control').forEach(input => {
   // 🪄 Generate image paths automatically
   const images = [];
   for (let i = 1; i <= totalImages; i++) {
-    images.push(`./images/portfolio/portfolio-${i}.JPG`);
+    images.push(`./images/portfolio/portfolio-${i}.jpg`);
   }
 
    // Select the gallery container

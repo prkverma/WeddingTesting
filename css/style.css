@@ -846,6 +846,12 @@ b .haldiTitle::first-letter{
     color: #111111;
 }
 
+.contact .info span{
+        font-family: cursive;
+    font-weight: bold;
+    font-size: 1.1em;
+}
+
 .contact .info .email,
 .contact .info .phone{
     margin-top: 40px;
@@ -1558,4 +1564,8 @@ section h1 {
             font-size: 1.4rem;
             font-weight: 300;
             letter-spacing: 1px;
+        }
+
+        .locHead::first-letter{
+            color: var(--primary);
         }
